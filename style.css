@@ -1916,6 +1916,11 @@ h2.cap-head {
     margin: 20px 0 0;
 }
 
+/* Header padding */
+header.site-header {
+    padding: 0 50px;
+}
+
 
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
