@@ -38,6 +38,7 @@ function executive_home_sections() {
 		'before' => '<div class="home-slider widget-area">',
 		'after'  => '</div>',
 	) );
+	echo '<h2 class= "cap-head">Capabilities</h2>';
 
 	genesis_widget_area( 'home-top', array(
 		'before' => '<div class="home-top widget-area">',
