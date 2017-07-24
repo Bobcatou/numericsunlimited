@@ -1839,7 +1839,7 @@ img#wpstats {
 ---------------------------------------------------------------------------------------------------- */
 
 .footer-widgets {
-	background-color: #222;
+/*	background-color: #222; */
 	color: #c8c8c8;
 	clear: both;
 	font-size: 14px;
@@ -1904,6 +1904,16 @@ img#wpstats {
 
 .site-footer p {
 	margin: 0;
+}
+
+
+/* Below are LWM changes */
+
+/* Added Capabilities Heading */
+
+h2.cap-head {
+    text-align: center;
+    margin: 20px 0 0;
 }
 
 
