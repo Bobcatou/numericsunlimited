@@ -1918,7 +1918,7 @@ h2.cap-head {
 
 /* Header padding */
 header.site-header {
-    padding: 0 50px;
+    padding-left: 50px;
 }
 
 
