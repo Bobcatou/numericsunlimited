@@ -1924,7 +1924,27 @@ header.site-header {
 
 /* Second Row with title left and image right */
 
-.title-tagline
+.titling-area {
+	width: 100%;
+}
+.title-tagline {
+	background-color: #1230db;
+	min-height: 413px;
+	width: auto;
+
+}
+
+
+.title-tagline h2, .title-tagline h4 {
+	color: #fff;
+	font-weight: 300;
+}
+
+#black-studio-tinymce-2 .one-half {
+	margin-left: 0;
+	width: 50%;
+}
+
 
 /* Third Row with Capabilities */
 
