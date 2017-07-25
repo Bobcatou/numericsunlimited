@@ -1911,17 +1911,28 @@ img#wpstats {
 
 /* Below are LWM changes */
 
-/* Added Capabilities Heading */
+
+/* Header with logo and menu */
+
+
+
+/* Header padding */
+header.site-header {
+    padding-left: 50px;
+}
+
+
+/* Second Row with title left and image right */
+
+.title-tagline
+
+/* Third Row with Capabilities */
 
 h2.cap-head {
     text-align: center;
     margin: 20px 0 0;
 }
 
-/* Header padding */
-header.site-header {
-    padding-left: 50px;
-}
 
 
 /* Converted Home Middle Widget area to two */
