@@ -177,8 +177,21 @@ genesis_register_sidebar( array(
 	'name'        => __( 'Home - Call To Action', 'executive-pro' ),
 	'description' => __( 'This is the call to action section on the home page.', 'executive-pro' ),
 ) );
+//genesis_register_sidebar( array(
+//	'id'          => 'home-middle',
+//	'name'        => __( 'Home - Middle', 'executive-pro' ),
+//	'description' => __( 'This is the middle section of the home page.', 'executive-pro' ),
+//) );
+
 genesis_register_sidebar( array(
-	'id'          => 'home-middle',
-	'name'        => __( 'Home - Middle', 'executive-pro' ),
-	'description' => __( 'This is the middle section of the home page.', 'executive-pro' ),
+	'id'          => 'home-middle-left',
+	'name'        => __( 'Home - Middle Left', 'executive' ),
+	'description' => __( 'This is the bottom left section above footer.', 'executive' ),
 ) );
+
+genesis_register_sidebar( array(
+	'id'          => 'home-middle-right',
+	'name'        => __( 'Home - Middle Right', 'executive' ),
+	'description' => __( 'This is the bottom right section above footer.', 'executive' ),
+) );
+
