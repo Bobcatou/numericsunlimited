@@ -1924,6 +1924,27 @@ header.site-header {
 }
 
 
+/* Converted Home Middle Widget area to two */
+
+.home-top-wrapper {
+	background-color: #fff;
+	clear: both;
+	overflow: hidden;
+	padding: 60px 30px 60px;
+	padding: 6rem 3rem 6rem;
+}
+
+.home-top-wrapper .widget {
+	margin-bottom: 30px;
+	margin-bottom: 3rem;
+}
+
+.home-top-wrapper .widget:last-child {
+	margin-bottom: 0;
+}
+
+
+
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
@@ -2274,6 +2295,20 @@ header.site-header {
 	}
 
 }
+
+
+
+/* Converted Home Middle Widget area to two */
+
+@media only screen and (max-width: 767px) {
+	.home-top-left {
+		margin-bottom: 50px;
+		margin-bottom: 5rem;
+	}
+}
+
+
+
 
 @media only screen and (max-width: 500px) {
 
