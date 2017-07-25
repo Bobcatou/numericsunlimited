@@ -50,11 +50,19 @@ function executive_home_sections() {
 		'after'  => '</div>',
 	) );
 
-	genesis_widget_area( 'home-middle', array(
-		'before' => '<div class="home-middle widget-area">',
-		'after'  => '</div>',
-	) );
+//	genesis_widget_area( 'home-middle', array(
+//		'before' => '<div class="home-middle widget-area">',
+//		'after'  => '</div>',
+//	) );
+genesis_widget_area( 'home-middle-left', array(
+	'before' => '<div class="home-middle-wrapper"><div class="home-top-left widget-area one-half first">',
+	'after'  => '</div>',
+) );
 
+genesis_widget_area( 'home-middle-right', array(
+	'before' => '<div class="home-middle-right widget-area one-half">',
+	'after'  => '</div></div>',
+) );
 }
 
 // Add body class to home page.
