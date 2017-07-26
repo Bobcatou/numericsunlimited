@@ -34,10 +34,24 @@ function executive_home_sections() {
 
 	echo '<h2 class="screen-reader-text">' . __( 'Main Content', 'executive-pro' ) . '</h2>';
 
-	genesis_widget_area( 'home-slider', array(
-		'before' => '<div class="home-slider widget-area">',
-		'after'  => '</div>',
-	) );
+//	genesis_widget_area( 'home-slider', array(
+//		'before' => '<div class="home-slider widget-area">',
+//		'after'  => '</div>',
+//	) );
+
+genesis_widget_area( 'under-header-left', array(
+	'before' => '<div class="home-under-header-wrapper"><div class="home-under-header-left widget-area one-half first">',
+	'after'  => '</div>',
+) );
+
+genesis_widget_area( 'under-header-right', array(
+	'before' => '<div class="under-header-right widget-area one-half">',
+	'after'  => '</div></div>',
+) );
+
+
+
+
 	echo '<h2 class= "cap-head">Capabilities</h2>';
 
 	genesis_widget_area( 'home-top', array(
