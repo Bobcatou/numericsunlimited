@@ -1927,26 +1927,23 @@ header.site-header {
 /* Second Row with title left and image right */
 
 .titling-area {
-	width: 100%;
-}
-.title-tagline {
 	background-color: #1230db;
-	min-height: 413px;
-	width: auto;
-
-}
-
-
-.title-tagline h2, .title-tagline h4 {
 	color: #fff;
-	font-weight: 300;
+	padding: 0 0 0 20px;
 }
 
-#black-studio-tinymce-2 .one-half {
-	margin-left: 0;
-	width: 50%;
+
+section#text-8 {
+	background-color: #1230db;
+	color: #fff;
 }
 
+
+
+
+.titling-area h2, .titling-area h4, .industries-served-wrap h2 {
+	color: #fff;
+}
 
 /* Third Row with Capabilities */
 
@@ -1959,20 +1956,45 @@ h2.cap-head {
 
 /* Converted Home Middle Widget area to two */
 
-.home-top-wrapper {
+
+.home-under-header-wrapper {
 	background-color: #fff;
 	clear: both;
 	overflow: hidden;
-	padding: 60px 30px 60px;
-	padding: 6rem 3rem 6rem;
 }
 
-.home-top-wrapper .widget {
+.home-under-header-wrapper .widget {
 	margin-bottom: 30px;
 	margin-bottom: 3rem;
 }
 
-.home-top-wrapper .widget:last-child {
+.home-under-header-wrapper .widget:last-child {
+	margin-bottom: 0;
+}
+
+
+.home-under-header-left.widget-area.one-half.first, .home-top-left.widget-area.one-half.first {
+    width: 50%;
+}
+
+.under-header-right.widget-area.one-half, .home-middle-right.widget-area.one-half {
+    width: 50%;
+    margin-left: 0;
+}
+
+
+.home-middle-wrapper {
+	background-color: #fff;
+	clear: both;
+	overflow: hidden;
+}
+
+.home-middle-wrapper .widget {
+	margin-bottom: 30px;
+	margin-bottom: 3rem;
+}
+
+.home-middle-wrapper .widget:last-child {
 	margin-bottom: 0;
 }
 
