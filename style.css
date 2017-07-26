@@ -1927,14 +1927,12 @@ header.site-header {
 /* Second Row with title left and image right */
 
 .titling-area {
-	background-color: #1230db;
 	color: #fff;
 	padding: 0 0 0 20px;
 }
 
 
 section#text-8 {
-	background-color: #1230db;
 	color: #fff;
 }
 
@@ -1958,7 +1956,7 @@ h2.cap-head {
 
 
 .home-under-header-wrapper {
-	background-color: #fff;
+	background-color: #1230db;
 	clear: both;
 	overflow: hidden;
 }
@@ -1984,7 +1982,7 @@ h2.cap-head {
 
 
 .home-middle-wrapper {
-	background-color: #fff;
+	background-color: #1230db;
 	clear: both;
 	overflow: hidden;
 }
