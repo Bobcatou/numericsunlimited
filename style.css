@@ -1256,6 +1256,8 @@ img#wpstats {
 	display: block;
 	padding: 16px 20px;
 	position: relative;
+    font-family: 'Lusitana', serif;
+    font-size: 20px;	
 }
 
 .genesis-nav-menu a:focus,
