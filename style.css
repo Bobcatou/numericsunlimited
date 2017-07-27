@@ -1932,14 +1932,10 @@ header.site-header {
 }
 
 
-section#text-8 {
-	color: #f0e7e7;
-}
 
 
 
-
-.titling-area h2, .titling-area h4, .industries-served-wrap h2 {
+.titling-area h2, .titling-area h4, .industries-served-wrap h2, section#text-8 h4 {
 	color: #f0e7e7;
 }
 
