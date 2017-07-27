@@ -207,3 +207,15 @@ genesis_register_sidebar( array(
 	'description' => __( 'This is the bottom right section above footer.', 'executive' ),
 ) );
 
+//* Customize footer credits
+add_filter( 'genesis_footer_creds_text', 'sp_footer_creds_text' );
+function sp_footer_creds_text() {
+echo '<div class="lwm_credits"><p>';
+echo 'Copyright &copy; ';
+echo date('Y');
+echo ' &middot; <a href="https://numericsunlimited.com">Numerics Unlimited</a> ';
+echo '</p></div>';
+}
+
+
+
