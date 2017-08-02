@@ -1957,6 +1957,7 @@ h2.cap-head {
 	background-color: #1230db;
 	clear: both;
 	overflow: hidden;
+	max-height: 300px;
 }
 
 .home-under-header-wrapper .widget {
@@ -1967,6 +1968,12 @@ h2.cap-head {
 .home-under-header-wrapper .widget:last-child {
 	margin-bottom: 0;
 }
+
+.nustatement {
+    padding-top: 88px;
+}
+
+
 
 
 .home-under-header-left.widget-area.one-half.first, .home-top-left.widget-area.one-half.first {
