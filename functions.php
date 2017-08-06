@@ -168,16 +168,30 @@ add_action( 'genesis_after_entry', 'genesis_after_entry_widget_area', 5 );
 //	'description' => __( 'This is the slider section on the home page.', 'executive-pro' ),
 //) );
 
+//genesis_register_sidebar( array(
+//	'id'          => 'under-header-left',
+//	'name'        => __( 'Home - Under Header Left', 'executive-pro' ),
+//	'description' => __( 'This the left side under the Numerics logo where Title and Tag go.', 'executive-pro' ),
+///) );
+//genesis_register_sidebar( array(
+//	'id'          => 'under-header-right',
+//	'name'        => __( 'Home - Under Header Right', 'executive-pro' ),
+//	'description' => __( 'This is the right side under menu where image can go.', 'executive-pro' ),
+//) );
+
 genesis_register_sidebar( array(
-	'id'          => 'under-header-left',
-	'name'        => __( 'Home - Under Header Left', 'executive-pro' ),
-	'description' => __( 'This the left side under the Numerics logo where Title and Tag go.', 'executive-pro' ),
+	'id'          => 'under-header-top',
+	'name'        => __( 'Home - Under Header Top', 'executive-pro' ),
+	'description' => __( 'This the top row under the Numerics logo where Title and Tag go.', 'executive-pro' ),
 ) );
 genesis_register_sidebar( array(
-	'id'          => 'under-header-right',
-	'name'        => __( 'Home - Under Header Right', 'executive-pro' ),
-	'description' => __( 'This is the right side under menu where image can go.', 'executive-pro' ),
+	'id'          => 'under-header-bottom',
+	'name'        => __( 'Home - Under Header Bottom', 'executive-pro' ),
+	'description' => __( 'This is the second/bottom row under menu where image can go.', 'executive-pro' ),
 ) );
+
+
+
 
 genesis_register_sidebar( array(
 	'id'          => 'home-top',
