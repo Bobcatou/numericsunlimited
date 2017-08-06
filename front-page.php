@@ -39,16 +39,25 @@ function executive_home_sections() {
 //		'after'  => '</div>',
 //	) );
 
-genesis_widget_area( 'under-header-left', array(
-	'before' => '<div class="home-under-header-wrapper"><div class="home-under-header-left widget-area one-half first">',
+genesis_widget_area( 'under-header-top', array(
+	'before' => '<div class="home-under-header-wrapper"><div class="home-under-header-top widget-area">',
 	'after'  => '</div>',
 ) );
 
-genesis_widget_area( 'under-header-right', array(
-	'before' => '<div class="under-header-right widget-area one-half">',
+genesis_widget_area( 'under-header-bottom', array(
+	'before' => '<div class="under-header-bottom widget-area">',
 	'after'  => '</div></div>',
 ) );
 
+//genesis_widget_area( 'under-header-left', array(
+//	'before' => '<div class="home-under-header-wrapper"><div class="home-under-header-left widget-area one-half first">',
+//	'after'  => '</div>',
+//) );
+
+//genesis_widget_area( 'under-header-right', array(
+//	'before' => '<div class="under-header-right widget-area one-half">',
+//	'after'  => '</div></div>',
+//) );
 
 
 
