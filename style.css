@@ -197,7 +197,7 @@ textarea:focus,
 }
 
 a {
-	color: #64c9ea;
+	color: #1230db;
 	text-decoration: none;
 }
 
@@ -1955,19 +1955,32 @@ h2.cap-head {
 
 .home-under-header-wrapper {
 	background-color: #1230db;
-	clear: both;
 	overflow: hidden;
 	max-height: 300px;
 }
 
-.home-under-header-wrapper .widget {
-	margin-bottom: 30px;
-	margin-bottom: 3rem;
+
+
+
+.home-under-header-top.widget-area {
+    padding: 15px 0;
+    width: 100%;
 }
 
-.home-under-header-wrapper .widget:last-child {
-	margin-bottom: 0;
+.nustatement {
+    text-align: center;
 }
+
+
+.nustatement h2 {
+	margin-bottom: 5px;
+}
+
+.under-header-bottom.widget-area img {
+    width: 100%;
+}
+
+
 
 
 
