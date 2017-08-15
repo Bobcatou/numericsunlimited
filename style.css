@@ -1207,8 +1207,8 @@ img#wpstats {
 	margin: 0;
 	max-width: 260px;
 	min-height: 100px;
-	padding: 0;
-	width: 100%;
+	padding: 4px 0 0;
+	width: 100%; 
 }
 
 
