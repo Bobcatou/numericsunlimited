@@ -1254,7 +1254,7 @@ img#wpstats {
 .genesis-nav-menu a {
 	color: #666;
 	display: block;
-	padding: 16px 20px;
+	padding: 16px 20px; 
 	position: relative;
     font-family: 'Lusitana', serif;
     font-size: 20px;	
@@ -1956,7 +1956,7 @@ h2.cap-head {
 .home-under-header-wrapper {
 	background-color: #1230db;
 	overflow: hidden;
-	max-height: 620px;
+/*	max-height: 620px; */
 }
 
 
@@ -1984,7 +1984,6 @@ h2.cap-head {
 
 
 
-
 .home-middle-wrapper {
 	background-color: #1230db;
 	clear: both;
@@ -1998,6 +1997,21 @@ h2.cap-head {
 
 .home-middle-wrapper .widget:last-child {
 	margin-bottom: 0;
+}
+
+
+
+/* Industries Served */
+
+#industries-served-wrap {
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: 10% 80% 10%;
+}
+
+#served {
+grid-column-start: 2;
+grid-row-start: 2;
 }
 
 
