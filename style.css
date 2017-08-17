@@ -2001,8 +2001,11 @@ h2.cap-head {
 
 
 
+/* Lower Widgets above Footer */
 
-
+section#text-8 h4 a {
+    color: #fff;
+}
 
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
