@@ -2001,18 +2001,6 @@ h2.cap-head {
 
 
 
-/* Industries Served */
-
-#industries-served-wrap {
-  display: grid;
-  grid-template-columns: 10% 80% 10%;
-  grid-template-rows: 10% 80% 10%;
-}
-
-#served {
-grid-column-start: 2;
-grid-row-start: 2;
-}
 
 
 
