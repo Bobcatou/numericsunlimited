@@ -1943,7 +1943,7 @@ header.site-header {
 
 /* Third Row with Capabilities */
 
-h2.cap-head {
+h2.cap-head, h2.add-services {
     text-align: center;
     margin: 20px 0 0;
 }
@@ -1954,7 +1954,6 @@ h2.cap-head {
 
 
 .home-under-header-wrapper {
-	background-color: #1230db;
 	overflow: hidden;
 /*	max-height: 620px; */
 }
@@ -1965,6 +1964,8 @@ h2.cap-head {
 .home-under-header-top.widget-area {
     padding: 15px 0;
     width: 100%;
+	background-color: #1230db;
+    
 }
 
 .nustatement {
