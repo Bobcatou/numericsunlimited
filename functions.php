@@ -210,6 +210,22 @@ genesis_register_sidebar( array(
 //) );
 
 genesis_register_sidebar( array(
+	'id'          => 'home-additional-services-left',
+	'name'        => __( 'Home - Additional Services Left', 'executive' ),
+	'description' => __( 'Left Side of Additional Services.', 'executive' ),
+) );
+
+genesis_register_sidebar( array(
+	'id'          => 'home-additional-services-right',
+	'name'        => __( 'Home - Additional Services Right', 'executive' ),
+	'description' => __( 'Right Side of Additional Services.', 'executive' ),
+) );
+
+
+
+
+
+genesis_register_sidebar( array(
 	'id'          => 'home-middle-left',
 	'name'        => __( 'Home - Middle Left', 'executive' ),
 	'description' => __( 'This is the bottom left section above footer.', 'executive' ),
