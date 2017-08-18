@@ -68,10 +68,25 @@ genesis_widget_area( 'under-header-bottom', array(
 		'after'  => '</div>',
 	) );
 
+	echo '<h2 class= "add-services">Additional Services</h2>';
+
+genesis_widget_area( 'home-additional-services-left', array(
+	'before' => '<div class="home-additional-services-wrapper"><div class="home-additional-services-left widget-area one-half first">',
+	'after'  => '</div>',
+) );
+
+genesis_widget_area( 'home-additional-services-right', array(
+	'before' => '<div class="home-additional-services-righ widget-area one-half">',
+	'after'  => '</div></div>',
+) );
+
+
 	genesis_widget_area( 'home-cta', array(
 		'before' => '<div class="home-cta widget-area">',
 		'after'  => '</div>',
 	) );
+
+
 
 //	genesis_widget_area( 'home-middle', array(
 //		'before' => '<div class="home-middle widget-area">',
