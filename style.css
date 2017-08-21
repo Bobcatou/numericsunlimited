@@ -1955,6 +1955,10 @@ h2.cap-head, h2.add-services {
     margin: 20px 0 0;
 }
 
+h2.add-services {
+    border-top: solid 1px #333;
+    padding-top: 30px;
+}
 
 
 /* Converted Home Middle Widget area to two */
