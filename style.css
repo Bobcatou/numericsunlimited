@@ -1426,6 +1426,10 @@ img#wpstats {
 	padding: 20px 30px 0;
 }
 
+.home-additional-services.widget-area {
+    padding-bottom: 40px;
+}
+
 .home-middle .widget,
 .home-top .widget,
 .home-additional-services .widget {
