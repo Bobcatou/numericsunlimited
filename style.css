@@ -1418,7 +1418,8 @@ img#wpstats {
 --------------------------------------------- */
 
 .home-middle,
-.home-top {
+.home-top,
+.home-additional-services {
 	background-color: #fff;
 	clear: both;
 	overflow: hidden;
@@ -1426,14 +1427,16 @@ img#wpstats {
 }
 
 .home-middle .widget,
-.home-top .widget {
+.home-top .widget,
+.home-additional-services .widget {
 	float: left;
 	padding: 0 2.8%;
 	width: 33.33333333333%;
 }
 
 .home-middle .widget:nth-of-type(3n+1),
-.home-top .widget:nth-of-type(3n+1) {
+.home-top .widget:nth-of-type(3n+1),
+.home-additional-services:nth-of-type(3n+1) {
 	clear: left;
 }
 
@@ -2176,6 +2179,7 @@ section#text-8 h4 a {
 	.four-sixths,
 	.home-middle .widget,
 	.home-top .widget,
+	.home-additional-services .widget,
 	.one-fourth,
 	.one-half,
 	.one-sixth,
@@ -2344,6 +2348,7 @@ section#text-8 h4 a {
 
 	.home-middle,
 	.home-top,
+	.home-additional-services,
 	.genesis-pro-portfolio .pro-portfolio.entry .entry-header .entry-title {
 		text-align: center;
 	}
