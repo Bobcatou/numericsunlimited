@@ -1758,7 +1758,7 @@ img#wpstats {
 }
 
 .widget li {
-	list-style-type: none;
+	list-style-type: disc;
 	margin-bottom: 6px;
 	margin-top: 6px;
 	text-align: left;
@@ -1777,7 +1777,7 @@ img#wpstats {
 }
 
 .widget ul > li {
-	list-style-position: outside;
+	list-style-position: inside;
 	padding: 0 0 0 16px;
 }
 
@@ -2006,6 +2006,16 @@ h2.cap-head, h2.add-services {
 .home-middle-wrapper .widget:last-child {
 	margin-bottom: 0;
 }
+
+
+
+/* Capablities */
+home-top.widget-area {
+    border-bottom: solid 1px #333;
+    padding-bottom: 10px;
+}
+
+
 
 
 
