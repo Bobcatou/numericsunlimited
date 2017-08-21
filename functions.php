@@ -209,19 +209,12 @@ genesis_register_sidebar( array(
 //	'description' => __( 'This is the middle section of the home page.', 'executive-pro' ),
 //) );
 
-genesis_register_sidebar( array(
-	'id'          => 'home-additional-services-left',
-	'name'        => __( 'Home - Additional Services Left', 'executive' ),
-	'description' => __( 'Left Side of Additional Services.', 'executive' ),
-) );
 
 genesis_register_sidebar( array(
-	'id'          => 'home-additional-services-right',
-	'name'        => __( 'Home - Additional Services Right', 'executive' ),
-	'description' => __( 'Right Side of Additional Services.', 'executive' ),
+	'id'          => 'additional-services',
+	'name'        => __( 'Home - Additional Services', 'executive-pro' ),
+	'description' => __( 'This is the Additional Services area (Needs 3 widgets).', 'executive-pro' ),
 ) );
-
-
 
 
 
