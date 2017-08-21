@@ -2017,8 +2017,10 @@ home-top.widget-area {
 
 
 
-
-
+/* Equipment Page */
+.equip-page-bottom {
+    padding-top: 40px;
+}
 /* Lower Widgets above Footer */
 
 section#text-8 h4 a {
