@@ -211,7 +211,7 @@ genesis_register_sidebar( array(
 
 
 genesis_register_sidebar( array(
-	'id'          => 'additional-services',
+	'id'          => 'home-additional-services',
 	'name'        => __( 'Home - Additional Services', 'executive-pro' ),
 	'description' => __( 'This is the Additional Services area (Needs 3 widgets).', 'executive-pro' ),
 ) );
