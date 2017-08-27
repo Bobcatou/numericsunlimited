@@ -598,6 +598,12 @@ td {
 	
 }
 
+.home .site-container {
+	margin: 0 auto;
+	max-width: 100%;  
+	
+}
+
 .executive-pro-landing .site-container {
 	max-width: 800px;
 }
