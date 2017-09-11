@@ -2040,6 +2040,28 @@ section#text-8 h4 a {
 p.quality-policy {
     padding: 0 30px;
 }
+/* Additional Services */
+section#custom_html-3.widget li {
+    list-style-image: url('images/metal-rods-icon.jpg');
+}
+
+section#custom_html-3.widget ul > li {
+	padding: 0 0 0 100px
+}
+
+section#custom_html-5.widget li {
+    list-style-image: url('images/gear-icon.jpg');
+}
+
+section#custom_html-5.widget ul > li {
+	padding: 0 0 0 100px
+}
+
+/* Center Image */
+img.image.wp-image-98.attachment-full.size-full {
+    display: block;
+    margin: 0 auto 24px;
+}
 
 
 
