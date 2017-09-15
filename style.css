@@ -1275,13 +1275,15 @@ img#wpstats {
 .genesis-nav-menu .current-menu-item > a:focus,
 .genesis-nav-menu .current-menu-item > a:hover {
 	background-color: #fff;
-	color: #666;
+	color: #1230db;
 	text-decoration: none;
 }
 
 .genesis-nav-menu .current-menu-item > a {
-	background-color: #de3826;
-	color: #fff;
+/*	background-color: #de3826; */
+	color: #de3826;
+	font-weight: 700;
+	text-decoration: underline;
 }
 
 .genesis-nav-menu .sub-menu {
@@ -1950,7 +1952,7 @@ header.site-header {
 
 
 
-.titling-area h2, .titling-area h4, .industries-served-wrap h2, section#text-8 h4 {
+.titling-area h2, .titling-area h4, .industries-served-wrap h2, #custom_html-8 h4 {
 	color: #f0e7e7;
 }
 
@@ -2041,6 +2043,7 @@ p.quality-policy {
     padding: 0 30px;
 }
 /* Additional Services */
+/*
 section#custom_html-3.widget li {
     list-style-image: url('images/metal-rods-icon.jpg');
 }
@@ -2052,10 +2055,16 @@ section#custom_html-3.widget ul > li {
 section#custom_html-5.widget li {
     list-style-image: url('images/gear-icon.jpg');
 }
-
+*/
 section#custom_html-5.widget ul > li {
-	padding: 0 0 0 100px
+	padding: 0 0 0 80px
 }
+
+section#custom_html-3.widget ul > li {
+	padding: 0 0 0 80px
+}
+
+
 
 /* Center Image */
 img.image.wp-image-98.attachment-full.size-full {
@@ -2063,6 +2072,12 @@ img.image.wp-image-98.attachment-full.size-full {
     margin: 0 auto 24px;
 }
 
+
+/* Location footer widget */
+.locale p {
+	line-height: 1.4px;
+	margin-bottom: 20px
+}
 
 
 /* Media Queries
