@@ -2080,6 +2080,44 @@ img.image.wp-image-98.attachment-full.size-full {
 }
 
 
+/* About Page */
+
+.nu-map .one-half p {
+	margin: 0;
+	padding: 0;
+}
+
+.nu-map p, .phone a {
+    color: #fff;
+} {
+	color: #fff;
+
+}
+.one-half.first.map-address {
+    margin-bottom: 30px;
+}
+
+.nu-map {
+	background: #1230db;
+	padding: 25px;
+}
+
+
+.nu-map .place-description a {
+	 color: #de3826;
+	 font-family: 'Lato', sans-serif;
+	 font-weight: 700;
+
+	 
+}
+
+.nu-map .place-description p {
+	 font-family: 'Lato', sans-serif;
+}
+
+p.place-title {
+	font-family: 'Lusitana', serif !important;
+}
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
