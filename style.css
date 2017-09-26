@@ -1212,7 +1212,7 @@ img#wpstats {
 	float: left;
 	margin: 0;
 	max-width: 260px;
-	min-height: 100px;
+	min-height: 92px;
 	padding: 4px 0 0;
 	width: 100%; 
 }
@@ -1385,7 +1385,8 @@ img#wpstats {
 }
 
 .site-header .genesis-nav-menu a {
-	padding: 38px 18px 40px;
+/*	padding: 38px 18px 40px; */
+    padding: 35px 18px 15px;
 }
 
 .site-header .sub-menu {
