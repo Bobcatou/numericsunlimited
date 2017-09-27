@@ -60,7 +60,7 @@ function executive_load_scripts() {
 
 	wp_enqueue_style( 'dashicons' );
 
-	wp_enqueue_style( 'google-font', '//fonts.googleapis.com/css?family=Lato:400,400i,700|Lusitana:400,700', array(), CHILD_THEME_VERSION );
+	wp_enqueue_style( 'google-font', '//fonts.googleapis.com/css?family=Raleway:400,400i,700|Roboto:100', array(), CHILD_THEME_VERSION );
 
 	$suffix = ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ) ? '' : '.min';
 	wp_enqueue_script( 'executive-responsive-menu', get_stylesheet_directory_uri() . '/js/responsive-menus' . $suffix . '.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
