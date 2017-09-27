@@ -284,7 +284,7 @@ h5,
 h6 {
 	color: #333;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
+	font-weight: 100;
 	line-height: 1.25;
 	margin: 0;
 	margin-bottom: 10px;
@@ -1263,6 +1263,7 @@ img#wpstats {
 	padding: 16px 20px; 
 	position: relative;
     font-family: 'Roboto', sans-serif;
+    font-weight: 100;
     font-size: 20px;	
 }
 
