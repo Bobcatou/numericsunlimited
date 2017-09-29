@@ -1267,6 +1267,7 @@ img#wpstats {
     font-size: 20px;	
 }
 
+
 .genesis-nav-menu a:focus,
 .genesis-nav-menu a:hover,
 .genesis-nav-menu li:focus,
@@ -1277,7 +1278,7 @@ img#wpstats {
 .genesis-nav-menu .current-menu-item > a:hover {
 	background-color: #fff;
 	color: #1230db;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 .genesis-nav-menu .current-menu-item > a {
@@ -1961,8 +1962,11 @@ header.site-header {
 }
 
 
+/* Industries Served section */
 
-
+.industries-served-wrap {
+    margin: 10%;
+}
 
 .titling-area h2, .titling-area h4, .industries-served-wrap h2, #custom_html-8 h4 {
 	color: #f0e7e7;
