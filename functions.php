@@ -221,13 +221,13 @@ genesis_register_sidebar( array(
 genesis_register_sidebar( array(
 	'id'          => 'home-middle-left',
 	'name'        => __( 'Home - Middle Left', 'executive' ),
-	'description' => __( 'This is the bottom left section above footer.', 'executive' ),
+	'description' => __( 'This is the bottom left section above footer.', 'executive-pro' ),
 ) );
 
 genesis_register_sidebar( array(
 	'id'          => 'home-middle-right',
 	'name'        => __( 'Home - Middle Right', 'executive' ),
-	'description' => __( 'This is the bottom right section above footer.', 'executive' ),
+	'description' => __( 'This is the bottom right section above footer.', 'executive-pro' ),
 ) );
 
 //* Customize footer credits
