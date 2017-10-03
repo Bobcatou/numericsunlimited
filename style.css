@@ -1994,10 +1994,10 @@ header.site-header {
 
 /* Industries Served section */
 
-.industries-served-wrap {
+/*.industries-served-wrap {
     margin: 10%;
 }
-
+*/
 /* Gets rid of the color bleedover from backgroud wrap */
 .home-top-left.widget-area.one-half.first img {
     display: block;
