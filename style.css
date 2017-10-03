@@ -1309,8 +1309,8 @@ img#wpstats {
 	border: 1px solid #f5f5f5;
 	border-top: none;
 	color: #666;
-	font-size: 12px;
-	font-size: 1.2rem;
+	font-size: 20px;
+	font-size: 2rem;
 	padding: 12px 18px;
 	position: relative;
 	width: 148px;
@@ -2113,7 +2113,7 @@ section#custom_html-3.widget ul > li {
 
 
 /* Center Image */
-img.image.wp-image-98.attachment-full.size-full {
+img.image.wp-image-181.attachment-full.size-full {
     display: block;
     margin: 0 auto 24px;
 }
