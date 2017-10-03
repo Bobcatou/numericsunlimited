@@ -1998,6 +1998,11 @@ header.site-header {
     margin: 10%;
 }
 
+/* Gets rid of the color bleedover from backgroud wrap */
+.home-top-left.widget-area.one-half.first img {
+    display: block;
+}
+
 .titling-area h2, .titling-area h4, .industries-served-wrap h2, #custom_html-8 h4 {
 	color: #f0e7e7;
 }
