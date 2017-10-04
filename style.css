@@ -1363,16 +1363,16 @@ img#wpstats {
 
 /*  */
 .genesis-nav-menu li a:hover{
-    color:#de3826;              /* Menu Link Color when hovered (yellow)      */
+    color:#24479B;              /* Menu Link Color when hovered (yellow)      */
 }
 .genesis-nav-menu li a:before{
     content: "";
     position: absolute;
     width: 100%;
-    height: 2px;
+    height: 1px;
     bottom: 0;
     left: 0;
-    background-color: #de3826;  /* Underline Color when hovered (yellow)      */
+    background-color: #24479B;  /* Underline Color when hovered (yellow)      */
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
@@ -1387,9 +1387,12 @@ img#wpstats {
 }
 
 
+/* Request Quote menu item backgroud */
 
-
-
+i#menu-item-70 span {
+    background: #950019;
+    padding: 9px;
+}
 /* Accessible Menu
 --------------------------------------------- */
 
@@ -2137,7 +2140,7 @@ img.image.wp-image-181.attachment-full.size-full {
 
 
 /* About Page */
-
+/* Map */
 .nu-map .one-half p {
 	margin: 0;
 	padding: 0;
@@ -2174,6 +2177,17 @@ img.image.wp-image-181.attachment-full.size-full {
 p.place-title {
 	font-family: 'Roboto', sans-serif !important;
 }
+
+/* Menu Request Quote */	
+	li#menu-item-70 span {
+    background: #950019;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+	
+
+
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
