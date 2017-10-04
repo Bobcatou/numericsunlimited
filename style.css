@@ -1226,6 +1226,11 @@ img#wpstats {
 	width: 820px;
 }
 
+.home .site-header .widget-area {
+	margin-right: 30px;
+}
+
+
 .site-header .widget {
 	padding: 28px 0 0;
 }
