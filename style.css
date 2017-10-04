@@ -2188,8 +2188,11 @@ p.place-title {
     color: #fff;
 }
 	
-
-
+/* Weird Sidebar background color quirk */
+aside#genesis-sidebar-primary {
+    background: #fff;
+    
+    
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
