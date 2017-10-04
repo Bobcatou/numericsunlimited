@@ -2180,6 +2180,14 @@ p.place-title {
 	font-family: 'Roboto', sans-serif !important;
 }
 
+
+/* Derik's image */
+section#media_image-6 {
+    padding-bottom: 0;
+}
+
+
+
 /* Menu Request Quote */	
 	li#menu-item-70 span {
     background: #950019;
