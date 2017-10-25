@@ -445,7 +445,7 @@ input[type="reset"],
 input[type="submit"],
 .button,
 .entry-content .button {
-	background-color: #64c9ea;
+	background-color: #950019;
 	border: none;
 	border-radius: 5px;
 	box-shadow: none;
@@ -468,7 +468,7 @@ input:hover[type="reset"],
 input:hover[type="submit"],
 .button:hover,
 .entry-content .button:hover {
-	background-color: #6bd5f1;
+	background-color: #24479B;
 	border: none;
 	text-decoration: none;
 }
