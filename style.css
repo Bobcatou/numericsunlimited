@@ -594,7 +594,7 @@ td {
 .site-container {
 	margin: 0 auto;
 	max-width: 1140px; 
-/*	max-width: 100%;   */
+/*	max-width: 100%;  */ 
 	
 }
 
@@ -1426,7 +1426,7 @@ i#menu-item-70 span {
 
 .site-header .genesis-nav-menu a {
 /*	padding: 38px 18px 40px; */
-    padding: 35px 18px 15px;
+    padding: 35px 13px 15px;
 }
 
 .site-header .sub-menu {
@@ -1939,6 +1939,9 @@ i#menu-item-70 span {
 	float: right;
 }
 
+
+
+
 .footer-widgets .widget {
 	margin-bottom: 30px;
 	word-wrap: break-word;
@@ -2200,6 +2203,9 @@ section#media_image-6 {
 aside#genesis-sidebar-primary {
     background: #fff;
     
+
+
+
     
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
@@ -2593,3 +2599,7 @@ aside#genesis-sidebar-primary {
 	}
 
 }
+
+
+
+
