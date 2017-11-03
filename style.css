@@ -1288,7 +1288,8 @@ img#wpstats {
 
 .genesis-nav-menu .current-menu-item > a {
 /*	background-color: #de3826; */
-	color: #de3826;
+/*	color: #de3826; */
+	color: #950019;
 	font-weight: 700;
 	text-decoration: none;
 }
@@ -2204,7 +2205,7 @@ aside#genesis-sidebar-primary {
     background: #fff;
     
 
-
+}
 
     
 /* Media Queries
@@ -2284,6 +2285,13 @@ aside#genesis-sidebar-primary {
 	.content #genesis-responsive-slider .flex-direction-nav li a.prev {
 		display: none;
 	}
+
+/* LWM tweaks */
+
+header.site-header {
+	padding-left: 0;
+}
+
 
 }
 
