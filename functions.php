@@ -241,12 +241,12 @@ echo '</p></div>';
 }
 
 // Make Font Awesome available - 
-add_action( 'wp_enqueue_scripts', 'enqueue_font_awesome' );
-function enqueue_font_awesome() {
+//add_action( 'wp_enqueue_scripts', 'enqueue_font_awesome' );
+//function enqueue_font_awesome() {
 
-	wp_enqueue_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css' );
+//	wp_enqueue_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css' );
 
-}
+//}
 
 
 
