@@ -2207,6 +2207,14 @@ aside#genesis-sidebar-primary {
 
 }
 
+/* Sidebar Employment sign up	 */
+li#field_3_3 .gfield_description {
+    text-align: center;
+}
+
+#gform_3 .gform_footer.top_label {
+    text-align: center;
+}
     
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
