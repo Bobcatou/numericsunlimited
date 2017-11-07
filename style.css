@@ -2207,6 +2207,7 @@ aside#genesis-sidebar-primary {
 
 }
 
+
 /* Sidebar Employment sign up	 */
 li#field_3_3 .gfield_description {
     text-align: center;
@@ -2215,7 +2216,40 @@ li#field_3_3 .gfield_description {
 #gform_3 .gform_footer.top_label {
     text-align: center;
 }
-    
+ 
+section#gform_widget-2 h3.widgettitle.widget-title {
+	text-align: center;
+	font-size: 2rem;
+	font-size: 20px;
+} 
+
+ 
+/* Employment Styling */ 
+
+.employment-page h4 {
+	font-weight: 700;
+}
+
+form#gform_3 {
+    border: 1px solid #535353;
+    padding: 10px;
+}
+
+section#text-10 a {
+	text-decoration: underline;
+	color: #24479B;
+}
+
+.contact-statement h4 {
+	font-style: italic;
+	font-weight: 100;
+}
+
+/* Contact Form */
+form#gform_4 span.gform_description a {
+    color: #24479B;
+}
+
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
