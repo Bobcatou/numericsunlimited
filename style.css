@@ -2301,6 +2301,12 @@ section#gform_widget-3 h3.widgettitle.widget-title {
 	padding: 60px 0px 30px;
 }
 
+
+.sidebar .widget {
+    padding: 30px 0px 30px 30px;
+}
+
+
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
