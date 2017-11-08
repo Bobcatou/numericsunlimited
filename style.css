@@ -2264,7 +2264,7 @@ form#gform_4 span.gform_description a {
 	width: 100% !important;
 }
 
-div#gform_wrapper_4 {
+div#gform_wrapper_4, div#gform_wrapper_5 {
 	padding: 10px;
 	border: 1px solid #535353;
 }
@@ -2325,6 +2325,9 @@ section#gform_widget-3 h3.widgettitle.widget-title {
 .header-image .title-area, .header-image .site-title, .header-image .site-title a {
 	padding-left: 0;
 }
+
+
+
 
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
