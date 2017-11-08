@@ -1993,6 +1993,7 @@ i#menu-item-70 span {
 /* Header padding */
 header.site-header {
 /*    padding-left: 50px; */
+	border-bottom: 1px solid #535353;
 }
 
 
