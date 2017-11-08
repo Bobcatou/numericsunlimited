@@ -2297,7 +2297,9 @@ section#gform_widget-3 h3.widgettitle.widget-title {
 	padding: 40px 0px 10px;
 }
 
-
+.footer-widgets .wrap {
+	padding: 60px 0px 30px;
+}
 
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
