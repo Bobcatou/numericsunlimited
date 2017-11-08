@@ -2250,6 +2250,26 @@ form#gform_4 span.gform_description a {
     color: #24479B;
 }
 
+
+#gform_wrapper_4 .top_label input.medium {
+	width: 100% !important;
+}
+
+div#gform_wrapper_4 {
+	padding: 10px;
+	border: 1px solid #535353;
+}
+
+section#gform_widget-3 h3.widgettitle.widget-title {
+	text-align: center;
+    font-size: 2rem;
+    font-size: 20px;
+}
+
+#gform_4 .gform_footer.top_label {
+	text-align: center;
+}
+
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
