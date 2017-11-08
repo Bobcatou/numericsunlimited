@@ -2141,8 +2141,10 @@ img.image.wp-image-181.attachment-full.size-full {
 
 /* Location footer widget */
 .locale p {
-	line-height: 1.4px;
-	margin-bottom: 20px
+	line-height: 22px;
+	margin-bottom: 0px;
+	font-size: 14px;
+	font-size: 1.4rem;	
 }
 
 
@@ -2276,6 +2278,26 @@ section#gform_widget-3 h3.widgettitle.widget-title {
 #gform_4 .gform_footer.top_label {
 	text-align: center;
 }
+
+
+/* Numeric's Location */
+
+.one-third.first.locale-map-page {
+    margin-top: 10%;
+}
+ .locale-map-page {
+    line-height: 1.4px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-size: 1.8rem;
+}
+/* READJUSTMENT OF PAGE WIDTHS */
+
+.content {
+	padding: 40px 0px 10px;
+}
+
+
 
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
