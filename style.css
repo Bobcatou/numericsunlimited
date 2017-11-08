@@ -1992,7 +1992,7 @@ i#menu-item-70 span {
 
 /* Header padding */
 header.site-header {
-    padding-left: 50px;
+/*    padding-left: 50px; */
 }
 
 
@@ -2226,8 +2226,14 @@ section#gform_widget-2 h3.widgettitle.widget-title {
  
 /* Employment Styling */ 
 
+.employment-page {
+    margin-top: 20px;
+}
+
 .employment-page h4 {
 	font-weight: 700;
+	font-size: 27px;
+	font-size: 2.7rem;
 }
 
 form#gform_3 {
