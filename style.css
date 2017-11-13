@@ -2277,6 +2277,8 @@ section#gform_widget-3 h3.widgettitle.widget-title {
 
 #gform_4 .gform_footer.top_label {
 	text-align: center;
+	padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 
@@ -2326,8 +2328,34 @@ section#gform_widget-3 h3.widgettitle.widget-title {
 	padding-left: 0;
 }
 
+/* Privacy Policy */
 
+.privacy {
+    border: solid 1px #535353;
+    padding: 20px 20px 0 20px;
+}
+      
 
+.privacy img:hover {
+    -webkit-filter: brightness(90%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+img.aligncenter.wp-image-276.size-full {
+    margin-bottom: 0px;
+}
+
+.privacy h4 {
+	margin-bottom: 3px;
+}
+
+.page-id-229 .privacy {
+	margin-top: 88px;
+}
 
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
