@@ -2338,11 +2338,11 @@ section#gform_widget-3 h3.widgettitle.widget-title {
 
 .privacy img:hover {
     -webkit-filter: brightness(90%);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
 }
 
 img.aligncenter.wp-image-276.size-full {
@@ -2353,7 +2353,7 @@ img.aligncenter.wp-image-276.size-full {
 	margin-bottom: 3px;
 }
 
-.page-id-229 .privacy {
+.page-id-229  {
 	margin-top: 88px;
 }
 
