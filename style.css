@@ -2219,6 +2219,11 @@ li#field_3_3 .gfield_description {
 #gform_3 .gform_footer.top_label {
     text-align: center;
 }
+
+#gform_5 .gform_footer.top_label {
+    text-align: center;
+}
+
  
 section#gform_widget-2 h3.widgettitle.widget-title {
 	text-align: center;
