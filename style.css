@@ -2341,7 +2341,7 @@ section#gform_widget-3 h3.widgettitle.widget-title {
 }
       
 
-.privacy img:hover {
+.privacy img:hover, .iso-cert img:hover {
     -webkit-filter: brightness(90%);
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -2449,6 +2449,22 @@ header.site-header {
 .home .site-header .widget-area {
 	margin-right: 0px;
 }
+
+.genesis-nav-menu a {
+	font-size: 17px;
+	font-size: 1.7rem;
+}
+
+.industries-served-wrap h2 {
+	font-size: 27px;
+	font-size: 2.7rem;
+}
+
+.industries-served-wrap h4 {
+	font-size: 20px;
+	font-size: 2rem;
+}
+
 
 }
 
@@ -2773,6 +2789,24 @@ section#custom_html-3 {
 	.content .entry-header .entry-meta .entry-comments-link {
 		display: none;
 	}
+
+/* LWM Tweaks November 13, 2017  11:16 PM */
+
+.titling-area {
+    padding: 0;
+}
+section#custom_html-3.widget ul > li, section#custom_html-5.widget ul > li {
+    font-size: 15px;
+    font-size: 1.5rem;
+}
+
+.home-top-left {
+	margin-bottom: 10px;
+	margin-bottom: 1rem;	
+}
+.footer-widgets .wrap {
+    padding: 30px 0px 0px;
+}
 
 }
 
