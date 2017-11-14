@@ -2055,6 +2055,7 @@ h2.add-services {
 
 .nustatement {
     text-align: center;
+    padding: 0 10px;
 }
 
 
@@ -2123,11 +2124,11 @@ section#custom_html-5.widget li {
 }
 */
 section#custom_html-5.widget ul > li {
-	padding: 0 0 0 80px
+	padding: 0 0 0 80px;
 }
 
 section#custom_html-3.widget ul > li {
-	padding: 0 0 0 80px
+	padding: 0 0 0 80px;
 }
 
 
@@ -2362,6 +2363,17 @@ img.aligncenter.wp-image-276.size-full {
 	margin-top: 88px;
 }
 
+.employment-page .gform_wrapper .gfield_description, .employment-openings .gform_wrapper .gfield_description {
+	padding: 0 !important;
+}
+
+aside#genesis-sidebar-primary input#gform_submit_button_3 {
+	margin-right: 0 !important;
+}	
+
+aside#genesis-sidebar-primary .gfield_description {
+	padding: 0 !important;
+}
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
@@ -2465,7 +2477,18 @@ header.site-header {
 	font-size: 2rem;
 }
 
+/* Additional Services */
 
+section#custom_html-3.widget ul > li {
+    padding: 0;
+}
+section#custom_html-5.widget ul > li {
+    padding: 0;
+}
+
+.home header.site-header {
+    padding: 0 25px 0 5px;
+}
 }
 
 @media only screen and (max-width: 1023px) {
