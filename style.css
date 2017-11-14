@@ -2489,6 +2489,21 @@ section#custom_html-5.widget ul > li {
 .home header.site-header {
     padding: 0 25px 0 5px;
 }
+
+
+/* Forms */
+
+.gform_wrapper .gform_footer {
+	margin: 0 !important;
+	padding-top: 10px !important;
+}
+
+/* Contact Statment */
+.contact-statement h4 {
+	font-size: 23px;
+	font-size: 2.3rem;
+}
+
 }
 
 @media only screen and (max-width: 1023px) {
