@@ -2799,11 +2799,54 @@ section#custom_html-3 {
     text-align: center;
 }
 
+/* Equipment h4 distance tweak */
 
+a.alignnone img, img.alignnone {
+    margin-bottom: -10px;
+}
 
+section#custom_html-3.widget ul > li {
+	padding-left: 30%;
+}
+section#custom_html-5.widget ul > li {
+	padding-left: 30%;
+}
+
+.footer-widgets .wrap {
+	padding-top: 30px;
+}
+
+.entry-title {
+	text-align: center;
+}
+
+/* Center's images in blog and other pages */
+img.alignleft, .wp-caption.alignleft{
+float:none;
+margin: 0 auto;
+display: block;
+}
+
+img.alignright, .wp-caption.alignright {
+display:block;
+float:none;
+margin: 0 auto;
 }
 
 
+
+/* Contact Statment */
+.contact-statement h4 {
+	font-size: 22px;
+	font-size: 2.2rem;
+}
+
+
+/* Map Page */
+img.wp-image-74.size-full.alignright {
+    padding-bottom: 30px;
+}
+}
 
 /* Converted Home Middle Widget area to two */
 
@@ -2812,6 +2855,22 @@ section#custom_html-3 {
 		margin-bottom: 50px;
 		margin-bottom: 5rem;
 	}
+
+/* Forms */
+
+.gform_wrapper .gform_footer {
+	margin: 0 !important;
+	padding-top: 30px !important;
+}
+
+/* Contact Statment */
+.contact-statement h4 {
+	font-size: 21px;
+	font-size: 2.1rem;
+}
+
+
+
 }
 
 
