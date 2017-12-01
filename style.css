@@ -2852,6 +2852,22 @@ img.wp-image-74.size-full.alignright {
 }
 }
 
+
+@media only screen and (max-width: 768px) {
+
+/* Engineering page */
+
+.post-45 img {
+	margin-bottom: 20px;
+}
+
+
+}
+
+
+
+
+
 /* Converted Home Middle Widget area to two */
 
 @media only screen and (max-width: 767px) {
@@ -2876,7 +2892,7 @@ img.wp-image-74.size-full.alignright {
 /* Engineering page */
 
 .post-45 img {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 
@@ -2930,6 +2946,13 @@ section#custom_html-3.widget ul > li, section#custom_html-5.widget ul > li {
 
 .employment-page {
     text-align: center;
+}
+
+/* Building font size adjustment */
+
+.post-47 h3 {
+	font-size: 24px;
+	font-size: 2.4rem;
 }
 
 }
