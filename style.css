@@ -2374,6 +2374,10 @@ aside#genesis-sidebar-primary input#gform_submit_button_3 {
 aside#genesis-sidebar-primary .gfield_description {
 	padding: 0 !important;
 }
+
+
+
+
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
@@ -2905,7 +2909,39 @@ section#custom_html-3.widget ul > li, section#custom_html-5.widget ul > li {
     padding: 30px 0px 0px;
 }
 
+section#custom_html-3.widget ul > li, section#custom_html-5.widget ul > li {
+    padding-left: 17%;
 }
+
+.contact-statement h4 {
+	text-align: center;
+}
+
+.page-id-229 .privacy {
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 414px) {
+
+.employment-page {
+    text-align: center;
+}
+
+}
+
+
+@media only screen and (max-width: 320px) {
+
+.locale-map-page {
+    line-height: 1px;
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+}
+
+
+
+
 
 @media only screen and (max-width: 270px) {
 
@@ -2919,7 +2955,4 @@ section#custom_html-3.widget ul > li, section#custom_html-5.widget ul > li {
 	}
 
 }
-
-
-
 
