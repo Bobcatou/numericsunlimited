@@ -2376,6 +2376,10 @@ aside#genesis-sidebar-primary .gfield_description {
 }
 
 
+/* Top Widgets after html widget transer */
+h5.cnc-title {
+    margin-top: 20px;
+}
 
 
 /* Media Queries
@@ -2850,6 +2854,12 @@ margin: 0 auto;
 img.wp-image-74.size-full.alignright {
     padding-bottom: 30px;
 }
+
+.top-area {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 }
 
 
@@ -2950,6 +2960,14 @@ section#custom_html-3.widget ul > li, section#custom_html-5.widget ul > li {
     text-align: center;
 }
 
+.employment-openings h3 {
+    text-align: center;
+    font-size: 22px;
+    font-size: 2.2rem;
+}
+
+
+
 /* Building font size adjustment */
 
 .post-47 h3 {
@@ -2957,16 +2975,27 @@ section#custom_html-3.widget ul > li, section#custom_html-5.widget ul > li {
 	font-size: 2.4rem;
 }
 
+
+.employment-page .entry-content ol li, .entry-content ul li {
+    margin-left: 0px;
 }
 
-
-@media only screen and (max-width: 320px) {
+.entry-content .employment-page ul > li {
+    list-style-type: none;
+}
 
 .locale-map-page {
     line-height: 1px;
     font-size: 14px;
     font-size: 1.4rem;
 }
+
+
+}
+
+
+@media only screen and (max-width: 320px) {
+
 
 section#custom_html-3.widget ul > li, section#custom_html-5.widget ul > li {
     padding-left: 0;
