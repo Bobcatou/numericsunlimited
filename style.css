@@ -1325,7 +1325,7 @@ img#wpstats {
 .genesis-nav-menu .sub-menu a:focus,
 .genesis-nav-menu .sub-menu a:hover {
 	background-color: #f5f5f5;
-	color: #1230db;
+	color: #24479b;
 }
 
 .genesis-nav-menu .sub-menu .sub-menu {
@@ -1996,7 +1996,6 @@ header.site-header {
 	border-bottom: 1px solid #535353;
 }
 
-
 /* Second Row with title left and image right */
 
 .titling-area {
@@ -2006,7 +2005,6 @@ header.site-header {
 
 
 /* Industries Served section */
-
 
 
 .industries-child {
@@ -2044,8 +2042,6 @@ h2.add-services {
 }
 
 
-
-
 .home-under-header-top.widget-area {
     padding: 15px 0;
     width: 100%;
@@ -2067,10 +2063,6 @@ h2.add-services {
     width: 100%;
 }
 
-
-
-
-
 .home-middle-wrapper {
 	background-color: #24479B;
 	clear: both;
@@ -2086,15 +2078,11 @@ h2.add-services {
 	margin-bottom: 0;
 }
 
-
-
 /* Capablities */
 home-top.widget-area {
     border-bottom: solid 1px #333;
     padding-bottom: 10px;
 }
-
-
 
 /* Equipment Page */
 .equip-page-bottom {
@@ -2109,20 +2097,7 @@ section#text-8 h4 a {
 p.quality-policy {
     padding: 0 30px;
 }
-/* Additional Services */
-/*
-section#custom_html-3.widget li {
-    list-style-image: url('images/metal-rods-icon.jpg');
-}
 
-section#custom_html-3.widget ul > li {
-	padding: 0 0 0 100px
-}
-
-section#custom_html-5.widget li {
-    list-style-image: url('images/gear-icon.jpg');
-}
-*/
 section#custom_html-5.widget ul > li {
 	padding: 0 0 0 80px;
 }
@@ -2166,23 +2141,6 @@ img.image.wp-image-181.attachment-full.size-full {
     margin-bottom: 30px;
 }
 
-.nu-map {
-	background: #1230db;
-	padding: 25px;
-}
-
-
-.nu-map .place-description a {
-	 color: #de3826;
-	 font-family: 'Raleway', sans-serif;
-	 font-weight: 700;
-
-	 
-}
-
-.nu-map .place-description p {
-	 font-family: 'Raleway', sans-serif;
-}
 
 p.place-title {
 	font-family: 'Roboto', sans-serif !important;
@@ -2203,6 +2161,12 @@ section#media_image-6 {
     border-radius: 5px;
     color: #fff;
 }
+
+li#menu-item-70 span:hover {
+	background: #24479b;
+
+}
+
 	
 /* Weird Sidebar background color quirk */
 aside#genesis-sidebar-primary {
@@ -2875,9 +2839,6 @@ img.wp-image-74.size-full.alignright {
 }
 
 
-
-
-
 /* Converted Home Middle Widget area to two */
 
 @media only screen and (max-width: 767px) {
@@ -2908,14 +2869,9 @@ img.wp-image-74.size-full.alignright {
 
 }
 
-
-
-
 @media only screen and (max-width: 500px) {
 
 	.entry-title {
-/*		font-size: 24px;  */
-/*		font-size: 2.4rem;  */
 		font-size: 30px;
 		font-size: 3rem;
 	}
@@ -2967,8 +2923,6 @@ section#custom_html-3.widget ul > li, section#custom_html-5.widget ul > li {
     font-size: 2.2rem;
 }
 
-
-
 /* Building font size adjustment */
 
 .post-47 h3 {
@@ -2991,7 +2945,6 @@ section#custom_html-3.widget ul > li, section#custom_html-5.widget ul > li {
     font-size: 1.4rem;
 }
 
-
 }
 
 
@@ -3005,11 +2958,8 @@ section#custom_html-3.widget ul > li, section#custom_html-5.widget ul > li {
 .employment-openings h3 {
 	text-align: center;
 }
+
 }
-
-
-
-
 
 @media only screen and (max-width: 270px) {
 
