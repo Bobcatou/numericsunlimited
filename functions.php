@@ -258,3 +258,29 @@ function sp_post_info_filter($post_info) {
 	$post_info = '[post_date]';
 	return $post_info;
 }
+
+//*Sridhar Code for phone at top on responsive
+
+// Register before-header widget area.
+genesis_register_widget_area(
+    array(
+        'id'          => 'before-header',
+        'name'        => __( 'Before Header', 'my-theme-text-domain' ),
+        'description' => __( 'Appears above site header.', 'my-theme-text-domain' ),
+    )
+);
+
+add_action( 'genesis_before_header', 'custom_above_header' );
+/**
+ * Display before-header widget area above site header.
+ */
+function custom_above_header() {
+    genesis_widget_area( 'before-header', array(
+        'before'    => '<div class="before-header widget-area"><div class="wrap">',
+        'after'     => '</div></div>',
+    ) );
+}
+
+
+
+
