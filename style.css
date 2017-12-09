@@ -2838,6 +2838,11 @@ img.wp-image-74.size-full.alignright {
 }
 
 
+
+
+
+
+
 }
 
 
@@ -2912,6 +2917,10 @@ section#custom_html-3.widget ul > li, section#custom_html-5.widget ul > li {
     margin-top: 0;
 }
 
+
+
+
+
 }
 @media only screen and (max-width: 414px) {
 
@@ -2980,3 +2989,55 @@ section#custom_html-3.widget ul > li, section#custom_html-5.widget ul > li {
 
 
 }
+
+
+
+/* Hides click to call button */
+
+
+
+
+
+.before-header {
+    padding: 14px 0;
+    display: none;
+}
+
+.before-header .wrap {
+    text-align: center;
+}
+
+.before-header a.button {
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 30px;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 546px) {
+
+    .before-header a.button {
+        margin-top: 12px;
+    }
+
+
+.before-header a.button {
+    margin-left:0;
+    }
+
+    .before-header {
+        display: block;
+    }
+
+}
+
+
+
+
+
+
