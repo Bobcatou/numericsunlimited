@@ -2499,6 +2499,7 @@ section#custom_html-5.widget ul > li {
 		background-position: center !important;
 		float: none;
 		margin: 0 auto;
+		padding-right: 0;
 	}
 
 	.genesis-nav-menu li,
@@ -2805,8 +2806,9 @@ float:none;
 margin: 0 auto;
 }
 
-
-
+.home header.site-header {
+    padding: 0 5px 0 5px;
+}
 /* Contact Statment */
 .contact-statement h4 {
 	font-size: 22px;
