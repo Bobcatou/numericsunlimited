@@ -161,23 +161,6 @@ add_theme_support( 'genesis-after-entry-widget-area' );
 remove_action( 'genesis_after_entry', 'genesis_after_entry_widget_area' );
 add_action( 'genesis_after_entry', 'genesis_after_entry_widget_area', 5 );
 
-// Register widget areas.
-//genesis_register_sidebar( array(
-//	'id'          => 'home-slider',
-//	'name'        => __( 'Home - Slider', 'executive-pro' ),
-//	'description' => __( 'This is the slider section on the home page.', 'executive-pro' ),
-//) );
-
-//genesis_register_sidebar( array(
-//	'id'          => 'under-header-left',
-//	'name'        => __( 'Home - Under Header Left', 'executive-pro' ),
-//	'description' => __( 'This the left side under the Numerics logo where Title and Tag go.', 'executive-pro' ),
-///) );
-//genesis_register_sidebar( array(
-//	'id'          => 'under-header-right',
-//	'name'        => __( 'Home - Under Header Right', 'executive-pro' ),
-//	'description' => __( 'This is the right side under menu where image can go.', 'executive-pro' ),
-//) );
 
 genesis_register_sidebar( array(
 	'id'          => 'under-header-top',
@@ -203,11 +186,6 @@ genesis_register_sidebar( array(
 	'name'        => __( 'Home - Call To Action', 'executive-pro' ),
 	'description' => __( 'This is the call to action section on the home page.', 'executive-pro' ),
 ) );
-//genesis_register_sidebar( array(
-//	'id'          => 'home-middle',
-//	'name'        => __( 'Home - Middle', 'executive-pro' ),
-//	'description' => __( 'This is the middle section of the home page.', 'executive-pro' ),
-//) );
 
 
 genesis_register_sidebar( array(
@@ -239,14 +217,6 @@ echo date('Y');
 echo ' &middot; <a href="https://numericsunlimited.com">Numerics Unlimited</a> ';
 echo '</p></div>';
 }
-
-// Make Font Awesome available - 
-//add_action( 'wp_enqueue_scripts', 'enqueue_font_awesome' );
-//function enqueue_font_awesome() {
-
-//	wp_enqueue_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css' );
-
-//}
 
 //* Remove the entry header markup (requires HTML5 theme support)
 remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
